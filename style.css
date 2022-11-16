@@ -92,7 +92,7 @@ header li{
 /* media query */
 
 @media screen and (min-width:577px) {
-    .sec-1 .row, .sec-4 .row{
+    .sec-1 .row, .sec-4 .row, .sec-5 .row{
         flex-direction: row;
         flex-wrap: wrap;
     }
@@ -107,6 +107,14 @@ header li{
 
     .sec-4 .col{
         flex-basis: 50%;
+    }
+
+    .sec-5 .card{
+        flex-basis: 200px;
+    }
+
+    .sec-5 .text{
+        flex-grow: 1;
     }
 }
     
@@ -132,6 +140,8 @@ header li{
     .sec-4 .col{
         flex-basis: calc(100% / 3);
     }
+
+    
 }
 
 @media screen and (min-width: 993px){
