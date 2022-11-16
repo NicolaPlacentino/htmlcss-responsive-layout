@@ -32,6 +32,10 @@ section{
 
 /* utils */
 
+.col{
+    padding: 5px;
+}
+
 .row{
     display: flex;
     justify-content: space-between;
@@ -64,9 +68,6 @@ header li{
 
 /* ! sec-1 */
 
-.sec-1 .col{
-    padding: 5px;
-}
 
 /* ! sec-2 */
 
@@ -91,7 +92,7 @@ header li{
 /* media query */
 
 @media screen and (min-width:577px) {
-    .sec-1 .row{
+    .sec-1 .row, .sec-4 .row{
         flex-direction: row;
         flex-wrap: wrap;
     }
@@ -104,6 +105,9 @@ header li{
         flex-basis: calc(100% / 3 * 2);
     }
 
+    .sec-4 .col{
+        flex-basis: 50%;
+    }
 }
     
 @media screen and (min-width: 769px) {
@@ -125,6 +129,9 @@ header li{
         flex-basis: 50%;
     }
 
+    .sec-4 .col{
+        flex-basis: calc(100% / 3);
+    }
 }
 
 @media screen and (min-width: 993px){
