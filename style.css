@@ -55,6 +55,15 @@ h2{
 
 .bg-white{background-color: white;}
 
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.ps-rel{
+    position: relative;
+}
+
 /* header */
 
 header{
@@ -122,8 +131,6 @@ header li.btn a{
 }
 
 .sec-1 a{
-    color: white;
-    text-decoration: none;
     background-color: #0084fd;
     padding: 10px 15px;
     border-radius: 20px;
@@ -280,17 +287,68 @@ header li.btn a{
 }
 
 .sec-4 .btn a{
-    text-decoration: none;
-    color: white;
     font-weight: 700;
-
     padding: 10px 30px;
     border-radius: 20px;
     letter-spacing: 3px;
 }
+
 /* ! sec-5 */
 
+.sec-5 .row{
+    align-items: flex-start;
+}
 
+.sec-5 .text, .sec-5 .card{
+    padding: 10px;
+}
+
+.sec-5 h2{
+    color: #9792e4;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.sec-5 p{
+    line-height: 32px;
+}
+
+.sec-5 figure{
+    width: 180px;
+    height: 180px;
+
+    flex-shrink: 0;
+
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.sec-5 .card .text{
+    color: #9792e4;
+    font-weight: 700;
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+.sec-5 .card .ps-rel{
+    width: 185px;
+} 
+
+.sec-5 .card .ps-rel i{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    color: #9792e4;
+    font-size: 70px;
+}
+
+.sec-5 .card a{
+    background-color: #9792e4;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
 
 /* ! sec-6 */
 
@@ -308,7 +366,7 @@ footer .container{
 /* media query */
 
 @media screen and (min-width:577px) {
-    .sec-1 .row, .sec-4 .row, .sec-5 .row{
+    .sec-1 .row, .sec-4 .row{
         flex-direction: row;
         flex-wrap: wrap;
     }
@@ -334,13 +392,27 @@ footer .container{
         flex-basis: 50%;
     }
 
+    .sec-5 .row{
+        flex-direction: row;
+        gap: 20px;
+    }
+
     .sec-5 .card{
         flex-basis: 200px;
     }
 
-    .sec-5 .text{
-        flex-grow: 1;
+    .sec-5 figure{
+        width: 200px;
+        height: 200px;
     }
+
+    .sec-5 .card .ps-rel{
+        width: 205px;
+    } 
+
+    /* .sec-5 .text{
+        flex-grow: 1;
+    } */
 }
     
 @media screen and (min-width: 769px) {
@@ -375,5 +447,4 @@ footer .container{
         flex-basis: calc(100% / 3);
     }
 
-    
 }
