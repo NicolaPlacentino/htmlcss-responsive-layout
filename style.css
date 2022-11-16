@@ -21,7 +21,7 @@ body{
 }
 
 section{
-    padding: 10px 0;
+    padding: 40px 0;
 }
 
 .sec-3 .text, .sec-6 .text, footer .text{
@@ -191,7 +191,52 @@ header li.btn a{
 
 /* ! sec-3 */
 
+.sec-3 h4{
+    font-weight: 400;
+    text-transform:uppercase
+}
 
+.sec-3 h2{
+    color: #9792e4;
+    font-size: 32px;
+}
+
+.sec-3 .card-section{
+    margin: 30px 0;
+}
+
+.sec-3 .card{
+    padding: 30px;
+    border-radius: 40px;
+    margin-bottom: 30px;
+}
+
+.sec-3 figure{
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0;
+
+    overflow: hidden;
+    border-radius: 50%;
+
+    margin: 0 auto;
+}
+
+.sec-3 figure img {
+    height: 100%;
+    width: fit-content;
+
+    transform: translateX(-50px);
+}
+
+.sec-3 .card.bg-purple .text{
+    color: white;
+    margin: 20px;
+}
+
+.sec-3 .card.bg-purple h3{
+    margin: 15px 0;
+}
 
 /* ! sec-4 */
 
@@ -228,6 +273,15 @@ footer .container{
 
     .sec-1 .col:first-child{
         flex-basis: calc(100% / 3 * 2);
+    }
+
+    .sec-3 .card{
+        display: flex;
+        align-items: center;
+    }
+
+    .sec-3 .card .text{
+        text-align: left;
     }
 
     .sec-4 .col{
