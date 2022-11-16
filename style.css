@@ -36,6 +36,15 @@ h2{
     margin: 20px 0;
 }
 
+h4{
+    font-weight: 400;
+    text-transform:uppercase
+}
+
+button{
+    cursor: pointer;
+}
+
 /* utils */
 
 .col{
@@ -49,12 +58,6 @@ h2{
     align-items: center;
 }
 
-.bg-purple{
-    background-color: #9792e4;
-}
-
-.bg-white{background-color: white;}
-
 .btn a{
     text-decoration: none;
     color: white;
@@ -62,6 +65,24 @@ h2{
 
 .ps-rel{
     position: relative;
+}
+
+.bg-purple{
+    background-color: #9792e4;
+}
+
+.bg-white{background-color: white;}
+
+.purple{
+    color: #9792e4;
+}
+
+.white{
+    color: white;
+}
+
+.golden{
+    color: rgb(255, 194, 40);
 }
 
 /* header */
@@ -167,10 +188,6 @@ header li.btn a{
 
 /* ! sec-2 */
 
-.sec-2 .card:not(.bg-white){
-    color: white;
-}
-
 .sec-2 img{ max-width: 420px;}
 
 .sec-2 .card:not(.bg-white) img{
@@ -198,13 +215,7 @@ header li.btn a{
 
 /* ! sec-3 */
 
-.sec-3 h4{
-    font-weight: 400;
-    text-transform:uppercase
-}
-
 .sec-3 h2{
-    color: #9792e4;
     font-size: 32px;
 }
 
@@ -237,7 +248,6 @@ header li.btn a{
 }
 
 .sec-3 .card.bg-purple .text{
-    color: white;
     margin: 20px;
 }
 
@@ -250,7 +260,6 @@ header li.btn a{
 .sec-4 h2{
     margin-top: 0;
     font-size: 30px;
-    color: white;
     text-align: center;
 }
 
@@ -266,12 +275,7 @@ header li.btn a{
 .sec-4 .number, .sec-4 h3, p{
     
     margin-bottom: 20px;
-}
-
-.sec-4 .number, .sec-4 h3{
-    color: #9792e4;
-}
-    
+}   
 
 .sec-4 .number{
     font-size: 50px;
@@ -304,7 +308,6 @@ header li.btn a{
 }
 
 .sec-5 h2{
-    color: #9792e4;
     font-size: 40px;
     margin-bottom: 30px;
 }
@@ -324,7 +327,6 @@ header li.btn a{
 }
 
 .sec-5 .card .text{
-    color: #9792e4;
     font-weight: 700;
     font-size: 28px;
     margin-top: 20px;
@@ -339,7 +341,6 @@ header li.btn a{
     top: 0;
     right: 0;
 
-    color: #9792e4;
     font-size: 70px;
 }
 
@@ -352,15 +353,51 @@ header li.btn a{
 
 /* ! sec-6 */
 
+.sec-6 .container{
+    max-width: 550px;
+}
+
+.sec-6 h2{
+    font-size: 32px;
+}
+
+.sec-6 h4{
+    opacity: 0.7;
+}
+
+.sec-6 #gratis{
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.sec-6 p{
+    font-size: 18px;
+}
+
 .sec-6 button{
+    padding: 20px 25px;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 3px;
+
     display: block;
-    margin: 0 auto;
+    margin: 30px auto;
 }
 
 /* footer */
 
+footer{
+    background-color: #333333;
+}
+
 footer .container{
-    max-width: 550px;
+    max-width: 500px;
+}
+
+footer p{
+    margin: 30px;
 }
 
 /* media query */
