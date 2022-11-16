@@ -79,6 +79,22 @@ header li{
 
 
 /* media query */
+
+@media screen and (min-width:577px) {
+    .sec-1 .row{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .sec-1 .col{
+        flex-basis: calc(100% / 3);
+    }
+
+    .sec-1 .col:first-child{
+        flex-basis: calc(100% / 3 * 2);
+    }
+
+}
     
 @media screen and (min-width: 769px) {
     header button{
