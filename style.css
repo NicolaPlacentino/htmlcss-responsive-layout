@@ -46,6 +46,38 @@ header li{
     list-style-type: none;
 }
 
+/* main */
+
+/* ! sec-1 */
+
+.sec-1 .row{
+    flex-direction: column;
+}
+
+.sec-1 .col{
+    padding: 5px;
+}
+
+/* ! sec-2 */
+
+
+
+/* ! sec-3 */
+
+
+
+/* ! sec-4 */
+
+
+
+/* ! sec-5 */
+
+
+
+/* ! sec-6 */
+
+
+
 /* media query */
     
 @media screen and (min-width: 769px) {
@@ -63,5 +95,5 @@ header li{
 }
 
 @media screen and (min-width: 993px){
-    
+
 }
