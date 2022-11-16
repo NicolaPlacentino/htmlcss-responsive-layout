@@ -93,6 +93,41 @@ header li.btn a{
 
 /* ! sec-1 */
 
+.sec-1 .row{
+    align-items: stretch;
+}
+
+.sec-1 .card{
+    background-color: #b5ddff;
+    border-radius: 20px;
+    padding: 15px 20px;
+    height: 100%;
+}
+
+.sec-1 .card.big{
+    padding-bottom: 0;
+}
+
+.sec-1 a{
+    color: white;
+    text-decoration: none;
+    background-color: #0084fd;
+    padding: 10px 15px;
+    border-radius: 20px;
+    
+    display: block;
+    width: 150px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.sec-1 img{
+    max-width: 250px;
+    display: block;
+    margin: 0px auto;
+}
+
+
 
 /* ! sec-2 */
 
@@ -163,6 +198,14 @@ footer .container{
         justify-content: space-between;
     }
 
+    .sec-1 .card.big{
+        display: flex;
+    }
+
+    .sec-1 a{
+        margin: 20px 0;
+    }
+
     .sec-2 .row{
         flex-direction: row;
     }
@@ -175,9 +218,6 @@ footer .container{
         flex-basis: calc(100% / 3);
     }
 
+
     
-}
-
-@media screen and (min-width: 993px){
-
 }
