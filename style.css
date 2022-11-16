@@ -26,6 +26,10 @@ section{
     padding: 10px 0;
 }
 
+.sec-3 .text, .sec-6 .text{
+    text-align: center;
+}
+
 /* utils */
 
 .row{
