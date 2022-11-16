@@ -53,6 +53,7 @@ header{
     top: 0;
     right: 0;
     left: 0;
+    z-index: 1;
 }
 
 header .row{
@@ -100,8 +101,10 @@ header li.btn a{
 .sec-1 .card{
     background-color: #b5ddff;
     border-radius: 20px;
-    padding: 15px 20px;
+    padding:20px;
     height: 100%;
+
+    color: #5a646b;
 }
 
 .sec-1 .card.big{
@@ -127,7 +130,23 @@ header li.btn a{
     margin: 0px auto;
 }
 
+.sec-1 h3{
+    color: #0084fd;
+    font-size: 20px;
+    margin: 20px 0;
+}
 
+.sec-1 .card:not(.big) h3{
+    text-align: center;
+}
+
+.sec-1 .card:not(.big) i{
+    color: #0084fd;
+    font-size: 55px;
+
+    display: block;
+    text-align: center;
+}
 
 /* ! sec-2 */
 
