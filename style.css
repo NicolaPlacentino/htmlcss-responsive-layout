@@ -87,7 +87,10 @@ header li{
 
 /* ! sec-6 */
 
-
+.sec-6 button{
+    display: block;
+    margin: 0 auto;
+}
 
 /* media query */
 
