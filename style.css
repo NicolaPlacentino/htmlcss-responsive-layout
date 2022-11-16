@@ -240,8 +240,54 @@ header li.btn a{
 
 /* ! sec-4 */
 
+.sec-4 h2{
+    margin-top: 0;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
 
+.sec-4 h3{
+    font-size: 22px;
+}
 
+.sec-4 .card{
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.sec-4 .number, .sec-4 h3, p{
+    
+    margin-bottom: 20px;
+}
+
+.sec-4 .number, .sec-4 h3{
+    color: #9792e4;
+}
+    
+
+.sec-4 .number{
+    font-size: 50px;
+}
+
+.sec-4 p{
+    color: #5a646b;
+    line-height: 30px;
+}
+
+.sec-4 .btn{
+    margin-top: 30px;
+}
+
+.sec-4 .btn a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+
+    padding: 10px 30px;
+    border-radius: 20px;
+    letter-spacing: 3px;
+}
 /* ! sec-5 */
 
 
